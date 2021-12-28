@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/enter_details"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginStart="12dp"/>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/outer_diamter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="Outer Diameter"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/bar_id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="Bar ID"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/material_of_construction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="Material of Construction"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/generate_barcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/purple_500"
+            android:text="Generate Barcode"
+            android:textColor="@android:color/white" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/shareBar"
+            android:layout_marginEnd="5dp"
+            android:layout_width="0.0dip" android:layout_height="fill_parent"
+            android:text="@string/share"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:layout_marginEnd="5dp"
+            android:id="@+id/printBar"
+            android:layout_width="0.0dip" android:layout_height="fill_parent"
+            android:text="@string/print"
+            android:layout_weight="1.0" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/barcode_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        tools:src="@mipmap/ic_launcher"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:id="@+id/barcode_hrt"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:text="123456"
+        />
+</LinearLayout>

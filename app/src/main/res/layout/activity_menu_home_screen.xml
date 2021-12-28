@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg5"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/firebasename"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginBottom="40dp"
+            android:text="IndiTech Valves"
+            android:textColor="#0769B6"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="10"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:padding="12dp"
+            android:rowCount="2">
+
+            <!-- Row 1 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addItems"
+                android:layout_width="25dp"
+                android:layout_height="37dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="17dp"
+                app:cardElevation="8dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="122dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="90dp"
+                        android:layout_height="87dp"
+                        android:background="@drawable/material"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Add Material"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/uploadDocs"
+                android:layout_width="25dp"
+                android:layout_height="37dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="17dp"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="99dp"
+                        android:layout_height="87dp"
+                        android:background="@drawable/upload"
+                        android:padding="18dp"
+                        android:layout_marginLeft="8dp"
+
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Upload Docs"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/scanItems"
+                android:layout_width="25dp"
+                android:layout_height="37dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="93dp"
+                        android:layout_height="88dp"
+                        android:src="@drawable/scanner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Scanner"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Column 2 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/viewInventory"
+                android:layout_width="25dp"
+                android:layout_height="18dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="17dp"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="135dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="88dp"
+                        android:layout_height="87dp"
+                        android:layout_marginLeft="0dp"
+                        android:background="@drawable/inventory" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Inventory"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="19dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!-- Row 3 -->
+
+            <!-- Column 1 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addValves"
+                android:layout_width="25dp"
+                android:layout_height="37dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="17dp"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="88dp"
+                        android:layout_height="87dp"
+                        android:background="@drawable/valves"
+                         />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Add Valves"
+                        android:textSize="19dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Row 2 -->
+
+            <!-- Column 1 -->
+
+            <!-- Column 2 -->
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

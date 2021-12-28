@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">IndiTech Valves</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scanner_camera">ScannerCameraActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="generate_qr">Generate QR</string>
+    <string name="valve_name">Valve Name</string>
+    <string name="barcode_id_s">Barcode Id\'s</string>
+    <string name="share">Share</string>
+    <string name="enter_barcode">Enter Barcode</string>
+    <string name="choose_file">Choose File</string>
+    <string name="upload_file">Upload File</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="size">Size</string>
+    <string name="class_casting">Class</string>
+    <string name="type_of_casting">Type of Casting</string>
+    <string name="material_of_construction">Material of Construction</string>
+    <string name="submit">Submit</string>
+    <string name="scanner">scanner</string>
+    <string name="rolled_bar">Rolled Bar</string>
+    <string name="outer_diameter">Outer Diameter</string>
+
+    <string name="AA">Auma Actuator</string>
+    <string name="CA">Casting</string>
+    <string name="FB">Forged Bar</string>
+    <string name="PO">Positioner</string>
+    <string name="RB">Rolled Bar</string>
+    <string name="SA">SD Tork Actuator</string>
+
+    <string name="wrk_num">Work Number</string>
+    <string name="outerDim">Outer Diameter</string>
+    <string name="bar_id">Bar ID</string>
+    <string name="model">Model</string>
+    <string name="make">Make</string>
+    <string name="invoice">Invoice</string>
+    <string name="serialNum">Serial Number</string>
+
+    <string name="work_number_display">Work Number : </string>
+    <string name="size_num_display">Size : </string>
+    <string name="cls_display">Class : </string>
+    <string name="toc_display">Type of Casting : </string>
+    <string name="moc_display">mOc : </string>
+    <string name="dim">Diameter : </string>
+    <string name="barId">Bar ID : </string>
+
+    <string name="model_display">Model : </string>
+    <string name="make_display">Make : </string>
+    <string name="invoice_display">Invoice : </string>
+    <string name="serial">Serial No. :</string>
+    <string name="add_valves">Add Valves</string>
+    <string name="bar_id_separated_by_a_comma">Bar id separated by a comma</string>
+    <string name="generate_qr_code">Generate QR-Code</string>
+    <string name="pdf">pdf</string>
+    <string name="upload_documents">Upload Documents</string>
+    <string name="qr_s">QR\'s</string>
+    <string name="choose_and_upload">Choose and Upload</string>
+    <string name="view_inventory">View Inventory</string>
+    <string name="showbar">showBar</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="add_new">ADD NEW</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="todo">TODO</string>
+    <string name="generate_barcode">Generate Barcode</string>
+    <string name="share_barcode">Share Barcode</string>
+    <string name="print">Print</string>
+    <string name="work_number">Work Number</string>
+    <string name="barcode_scanner">Barcode Scanner</string>
+</resources>
